@@ -18,5 +18,5 @@ BookInstanceSchema
     return '/catalog/bookinstance/' + this._id;
   });
 
-//Export model
+// Export model
 module.exports = mongoose.model('BookInstance', BookInstanceSchema);
